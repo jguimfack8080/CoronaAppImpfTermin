@@ -1,0 +1,79 @@
+<web-app>  
+	<context-param>
+		<param-name>myinit</param-name>
+		<param-value>myinitvalue</param-value>
+	</context-param>
+
+	<servlet>  
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>hbv.LoginServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/loginVrai</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>hbv.LogoutServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>CentralServlet</servlet-name>
+		<servlet-class>hbv.CentralServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>CentralServlet</servlet-name>
+		<url-pattern>/centralVrai</url-pattern>
+  </servlet-mapping>
+
+	<servlet>  
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>hbv.RegisterServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/registerVrai</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>ConfirmationServlet</servlet-name>
+		<servlet-class>hbv.ConfirmationServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>ConfirmationServlet</servlet-name>
+		<url-pattern>/confirmation</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>QRCodeServlet</servlet-name>
+		<servlet-class>hbv.QRCodeServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>QRCodeServlet</servlet-name>
+		<url-pattern>/qrcode</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>TerminAnsehenServlet</servlet-name>
+		<servlet-class>hbv.TerminAnsehenServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>TerminAnsehenServlet</servlet-name>
+		<url-pattern>/termin</url-pattern>
+	</servlet-mapping>	
+
+	<servlet>  
+		<servlet-name>DeleteTerminServlet</servlet-name>
+		<servlet-class>hbv.DeleteTerminServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>DeleteTerminServlet</servlet-name>
+		<url-pattern>/deleteVrai</url-pattern>
+	</servlet-mapping>	
+
+	</web-app>  

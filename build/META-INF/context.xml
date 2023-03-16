@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/mariadb" 
+		type="javax.sql.DataSource"
+		initialSize="3"
+		maxActive="10"
+		maxWaitMillis="5000"
+		username="swe3-2022team08" 
+		password="OesRQnYew8jAneTSKnUC" 
+		testOnBorrow="true"
+		timeBetweenEvictionRunsMillis="30000"
+		removeAbandoned="true"
+		driverClassName="org.mariadb.jdbc.Driver"
+		url="jdbc:mariadb://mysql-server:3306/swe3-2022team08_db" /> 
+</Context>
+
